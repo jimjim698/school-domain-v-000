@@ -6,8 +6,12 @@ class School
     @name = name
   end
 
-  def roster(_roster)
+  def roster=(_roster)
     @roster= _roster
+  end
+
+  def roster
+    @roster
   end
 
 end
