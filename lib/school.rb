@@ -29,7 +29,7 @@ end
 
 def sort
   @roster.each do |grade, student|
-    grade.sort!
+    student.sort!
   end
 end
 
